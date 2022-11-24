@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "strict": false,
+    "module": "commonjs",
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "lib": [
+      "DOM",
+      "ES2021",
+      "DOM.Iterable"
+    ],
+    "sourceMap": true,
+    "outDir": "./dist",
+    "experimentalDecorators": true,
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+}
